@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <!-- sidebar CSS -->
-    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href=<?php echo base_url($sidebarcss); ?>>
 
     <!-- icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
@@ -22,7 +22,11 @@
 <body id="body-pd">
     <header class="header" id="header">
         <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
-        <div class="header_img"> <img src="https://i.imgur.com/hczKIze.jpg" alt=""> </div>
+        <div class="header_logo">
+            <a href="<?= base_url(); ?>">
+                <img src=<?php echo base_url($aseanLogo); ?> alt="ASEAN logo">
+            </a>
+        </div>
     </header>
     <div class="l-navbar" id="nav-bar">
         <nav class="nav">
@@ -44,11 +48,11 @@
     </div>
     <!--Container Main start-->
     <div class="height-100 bg-light">
-        <h4>Main Components</h4>
+        <?= $this->renderSection('content'); ?>
     </div>
     <!--Container Main end-->
 
-    <?= $this->renderSection('content'); ?>
+
 
     <!-- JavaScript -->
     <script src=<?php echo base_url($js); ?>></script>
@@ -62,7 +66,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <!-- sidebar js -->
-    <script src="js/sidebar.js"></script>
+    <script src=<?php echo base_url($sidebarjs); ?>></script>
 </body>
 
 </html>
