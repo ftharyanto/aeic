@@ -167,6 +167,18 @@ a {
     width: 45px;
   }
 
+  /* // make logo on the right */
+
+  .header_logo img {
+    order: 2;
+    width: 8%;
+    justify-content: flex-end;
+  }
+  /* .header_logo img {
+    width: 8%;
+    
+  } */
+
   .l-navbar {
     left: 0;
     padding: 1rem 1rem 0 0;

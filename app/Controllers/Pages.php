@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 class Pages extends BaseController
 {
-    public function indonesiaHome()
+    public function page($country, $page)
     {
         $data = [
             'title' => 'AEIC Indonesia',
@@ -14,6 +14,6 @@ class Pages extends BaseController
             'js' => 'js/home.js',
             'aseanLogo' => 'img/asean-logo.png'
         ];
-        return view('pages/indonesia/home', $data);
+        return view("pages/$country/$page", $data);
     }
 }

@@ -22,6 +22,25 @@
 <body id="body-pd">
     <header class="header" id="header">
         <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
+        <div class="select">
+            <select class="form-select" aria-label="Select Country">
+                <option selected>Select Country</option>
+                <option value="indonesia">Indonesia</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="philippines">Phippines</option>
+                <option value="thailand">Thailand</option>
+                <option value="singapore">Singapore</option>
+                <option value="bruneids">Brunei DS</option>
+                <option value="vietnam">Vietnam</option>
+                <option value="laos">Laos</option>
+                <option value="myanmar">Myanmar</option>
+            </select>
+        </div>
+        <div class="logo-text text-end fw-bold">
+            <a href="<?php echo base_url(); ?>">
+                ASEAN EARTHQUAKE <br> INFORMATION CENTER
+            </a>
+        </div>
         <div class="header_logo">
             <a href="<?= base_url(); ?>">
                 <img src=<?php echo base_url($aseanLogo); ?> alt="ASEAN logo">
@@ -31,15 +50,15 @@
     <div class="l-navbar" id="nav-bar">
         <nav class="nav">
             <div class="nav_list">
-                <a href="#" class="nav_link active"> <i class='bx bx-home'></i> <span class="nav_name">Home</span> </a>
-                <a href="#" class="nav_link"> <i class='bx bx-history'></i> <span class="nav_name">History and Goals</span> </a>
-                <a href="#" class="nav_link"> <i class='bx bx-hive'></i> <span class="nav_name">Activities</span> </a>
-                <a href="#" class="nav_link"> <i class='bx bx-data'></i> <span class="nav_name">Data Exchange</span> </a>
-                <a href="#" class="nav_link"> <i class='bx bx-refresh'></i> <span class="nav_name">Update Data</span> </a>
-                <a href="#" class="nav_link"> <i class='bx bx-news'></i> <span class="nav_name">Recent Earthquakes</span> </a>
-                <a href="#" class="nav_link"> <i class='bx bx-buildings'></i> <span class="nav_name">Facilities</span> </a>
-                <a href="#" class="nav_link"> <i class='bx bx-donate-heart'></i> <span class="nav_name">Financial Support</span> </a>
-                <a href="#" class="nav_link"> <i class='bx bx-link'></i> <span class="nav_name">AEIC Links</span> </a>
+                <a href="/" class="nav_link active"> <i class='bx bx-home'></i> <span class="nav_name">Home</span> </a>
+                <a href="/history" class="nav_link"> <i class='bx bx-history'></i> <span class="nav_name">History and Goals</span> </a>
+                <a href="/activities" class="nav_link"> <i class='bx bx-hive'></i> <span class="nav_name">Activities</span> </a>
+                <a href="/data-exchange" class="nav_link"> <i class='bx bx-data'></i> <span class="nav_name">Data Exchange</span> </a>
+                <a href="/update-data" class="nav_link"> <i class='bx bx-refresh'></i> <span class="nav_name">Update Data</span> </a>
+                <a href="/recent-earthquakes" class="nav_link"> <i class='bx bx-news'></i> <span class="nav_name">Recent Earthquakes</span> </a>
+                <a href="/facilities" class="nav_link"> <i class='bx bx-buildings'></i> <span class="nav_name">Facilities</span> </a>
+                <a href="/financial-support" class="nav_link"> <i class='bx bx-donate-heart'></i> <span class="nav_name">Financial Support</span> </a>
+                <a href="/aeic-links" class="nav_link"> <i class='bx bx-link'></i> <span class="nav_name">AEIC Links</span> </a>
             </div>
     </div>
     </div>
