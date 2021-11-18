@@ -24,107 +24,101 @@
 <body>
     <div class="sidebar close">
         <div class="logo-details">
-            <img src="<?php echo base_url(); ?>/img/asean-logo.png" width="45%" alt="">
+            <img src="<?php echo base_url(); ?>/img/asean-logo.png" width="20%" alt="">
             <span class="logo_name">AEIC</span>
         </div>
         <ul class="nav-links">
             <li>
-                <a href="#">
-                    <i class='bx bx-grid-alt'></i>
-                    <span class="link_name">Dashboard</span>
+                <a href="/">
+                    <i class='bx bx-home'></i>
+                    <span class="link_name">Home</span>
                 </a>
                 <ul class="sub-menu blank">
-                    <li><a class="link_name" href="#">Category</a></li>
+                    <li><a class="link_name" href="/">Home</a></li>
                 </ul>
             </li>
             <li>
                 <div class="iocn-link">
                     <a href="#">
-                        <i class='bx bx-collection'></i>
-                        <span class="link_name">Category</span>
+                        <i class='bx bx-flag'></i>
+                        <span class="link_name">Countries</span>
                     </a>
                     <i class='bx bxs-chevron-down arrow'></i>
                 </div>
                 <ul class="sub-menu">
-                    <li><a class="link_name" href="#">Category</a></li>
-                    <li><a href="#">HTML & CSS</a></li>
-                    <li><a href="#">JavaScript</a></li>
-                    <li><a href="#">PHP & MySQL</a></li>
-                </ul>
-            </li>
-            <li>
-                <div class="iocn-link">
-                    <a href="#">
-                        <i class='bx bx-book-alt'></i>
-                        <span class="link_name">Posts</span>
-                    </a>
-                    <i class='bx bxs-chevron-down arrow'></i>
-                </div>
-                <ul class="sub-menu">
-                    <li><a class="link_name" href="#">Posts</a></li>
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">Login Form</a></li>
-                    <li><a href="#">Card Design</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">
-                    <i class='bx bx-pie-chart-alt-2'></i>
-                    <span class="link_name">Analytics</span>
-                </a>
-                <ul class="sub-menu blank">
-                    <li><a class="link_name" href="#">Analytics</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">
-                    <i class='bx bx-line-chart'></i>
-                    <span class="link_name">Chart</span>
-                </a>
-                <ul class="sub-menu blank">
-                    <li><a class="link_name" href="#">Chart</a></li>
-                </ul>
-            </li>
-            <li>
-                <div class="iocn-link">
-                    <a href="#">
-                        <i class='bx bx-plug'></i>
-                        <span class="link_name">Plugins</span>
-                    </a>
-                    <i class='bx bxs-chevron-down arrow'></i>
-                </div>
-                <ul class="sub-menu">
-                    <li><a class="link_name" href="#">Plugins</a></li>
-                    <li><a href="#">UI Face</a></li>
-                    <li><a href="#">Pigments</a></li>
-                    <li><a href="#">Box Icons</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">
-                    <i class='bx bx-compass'></i>
-                    <span class="link_name">Explore</span>
-                </a>
-                <ul class="sub-menu blank">
-                    <li><a class="link_name" href="#">Explore</a></li>
+                    <li><a class="link_name" href="#">Countries</a></li>
+                    <li><a href="<?php echo base_url(); ?>/country/index/indonesia">Indonesia</a></li>
+                    <li><a href="<?php echo base_url(); ?>/country/index/malaysia">Malaysia</a></li>
+                    <li><a href="<?php echo base_url(); ?>/country/index/philippines">Philippines</a></li>
+                    <li><a href="<?php echo base_url(); ?>/country/index/thailand">Thailand</a></li>
+                    <li><a href="<?php echo base_url(); ?>/country/index/singapore">Singapore</a></li>
+                    <li><a href="<?php echo base_url(); ?>/country/index/bruneids">Brunei DS</a></li>
+                    <li><a href="<?php echo base_url(); ?>/country/index/vietnam">Vietnam</a></li>
+                    <li><a href="<?php echo base_url(); ?>/country/index/laos">Laos</a></li>
+                    <li><a href="<?php echo base_url(); ?>/country/index/myanmar">Myanmar</a></li>
                 </ul>
             </li>
             <li>
                 <a href="#">
                     <i class='bx bx-history'></i>
-                    <span class="link_name">History</span>
+                    <span class="link_name">History and Goals</span>
                 </a>
-                <ul class="sub-menu blank">
-                    <li><a class="link_name" href="#">History</a></li>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">History and Goals</a></li>
                 </ul>
             </li>
             <li>
                 <a href="#">
-                    <i class='bx bx-cog'></i>
-                    <span class="link_name">Setting</span>
+                    <i class='bx bx-hive'></i>
+                    <span class="link_name">Activities</span>
+                </a>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">Activities</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-data'></i>
+                    <span class="link_name">Data Exchange</span>
                 </a>
                 <ul class="sub-menu blank">
-                    <li><a class="link_name" href="#">Setting</a></li>
+                    <li><a class="link_name" href="#">Data Exchange</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-news'></i>
+                    <span class="link_name">Recent Earthquakes</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Recent Earthquakes</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-buildings'></i>
+                    <span class="link_name">Facilities</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Facilities</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-donate-heart'></i>
+                    <span class="link_name">Financial Support</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Financial Support</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-link'></i>
+                    <span class="link_name">AEIC Links</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">AEIC Links</a></li>
                 </ul>
             </li>
 
@@ -133,11 +127,11 @@
     <section class="home-section">
         <div class="home-content">
             <i class='bx bx-menu'></i>
-            <img src="<?php echo base_url(); ?>/img/asean-logo.png" alt="ASEAN Logo" width=4%">
+            <img src="<?php echo base_url(); ?>/img/asean-logo.png" alt="ASEAN Logo" width="2%">
             <span class="text">ASEAN EARTHQUAKE INFORMATION CENTER</span>
         </div>
         <!--Container Main start-->
-        <div class="container">
+        <div class="container mt-5">
             <?= $this->renderSection('content'); ?>
         </div>
         <!--Container Main end-->

@@ -3,8 +3,8 @@
 <?= $this->section('content'); ?>
 
 <!--Container Main start-->
-<h4>Introduction</h4>
-<p>The ASEAN region is located at the intersection of three major tectonic plates namely Eurasian, Indo-Australian and the Pacific plates, and one minor plate, Philippine plate. This condition generates thousands of earthquake every year most of which are potentially destructive. In recent years, several big earthquakes occurred in some parts of ASEAN countries which caused considerable damage to buildings and other structures, landslides in mountainous regions, ground subsidence and ground rupture. These big earthquakes have also caused major fatalities. What makes an earthquake more devastating is the fact that it may generate tsunami with up to 10 meter high waves which add to the extent of the damage, especially in areas along the coast.
+<h2 class="text-center">Introduction</h2>
+<p class="text-justify">The ASEAN region is located at the intersection of three major tectonic plates namely Eurasian, Indo-Australian and the Pacific plates, and one minor plate, Philippine plate. This condition generates thousands of earthquake every year most of which are potentially destructive. In recent years, several big earthquakes occurred in some parts of ASEAN countries which caused considerable damage to buildings and other structures, landslides in mountainous regions, ground subsidence and ground rupture. These big earthquakes have also caused major fatalities. What makes an earthquake more devastating is the fact that it may generate tsunami with up to 10 meter high waves which add to the extent of the damage, especially in areas along the coast.
 
     To monitor earthquake activities, and to help mitigate the effects of earthquake disasters, most countries in ASEAN have established their National Seismological Centres (NSCs). While NSCs in some countries are quite modern, others are still in the process of upgrading. Ideally each of the upgraded NSC should have a real time monitoring system and other facilities for rapid dissemination of earthquake information.
 
