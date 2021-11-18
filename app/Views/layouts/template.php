@@ -17,7 +17,25 @@
     <!-- icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Select 2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <!-- Perfect Scrollbar CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/perfect-scrollbar@1.5.3/css/perfect-scrollbar.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href=<?php echo base_url($css); ?>>
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/css/util.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/css/main.css">
     <title><?= $title; ?></title>
 </head>
 
@@ -68,12 +86,12 @@
                 </ul>
             </li>
             <li>
-                <a href="#">
+                <a href="<?php echo base_url(); ?>/activities">
                     <i class='bx bx-hive'></i>
-                    <span class="link_name">Activities</span>
+                    <span class="link_name"><?php echo base_url(); ?>/</span>
                 </a>
                 <ul class="sub-menu">
-                    <li><a class="link_name" href="#">Activities</a></li>
+                    <li><a class="link_name" href="<?php echo base_url(); ?>/activities">Activities</a></li>
                 </ul>
             </li>
             <li>
@@ -113,12 +131,12 @@
                 </ul>
             </li>
             <li>
-                <a href="#">
+                <a href="<?php echo base_url(); ?>/aeic_links">
                     <i class='bx bx-link'></i>
                     <span class="link_name">AEIC Links</span>
                 </a>
                 <ul class="sub-menu blank">
-                    <li><a class="link_name" href="#">AEIC Links</a></li>
+                    <li><a class="link_name" href="<?php echo base_url(); ?>/aeic_links">AEIC Links</a></li>
                 </ul>
             </li>
 
@@ -140,19 +158,31 @@
 
 
 
-    <!-- JavaScript -->
+    <!-- Custom JS -->
     <!-- <script src=<?php echo base_url($js); ?>></script> -->
-
-    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="<?php echo base_url(); ?>/js/main.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
-    <!-- jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
     <!-- sidebar js -->
     <script src=<?php echo base_url($sidebarjs); ?>></script>
+
+    <!-- Perfect Scrollbar JS -->
+    <script src="https://cdn.jsdelivr.net/npm/perfect-scrollbar@1.5.3/dist/perfect-scrollbar.common.min.js"></script>
+
+    <!-- Select2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <script>
+        $('.js-pscroll').each(function() {
+            var ps = new PerfectScrollbar(this);
+
+            $(window).on('resize', function() {
+                ps.update();
+            })
+        });
+    </script>
 </body>
 
 </html>
