@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <!-- hidden base url for js -->
+    <input type="hidden" id="base_url" value="<?php echo base_url(); ?>">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +25,7 @@
     <header class="header" id="header">
         <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
         <div class="select">
-            <select class="form-select" aria-label="Select Country">
+            <select class="form-select" id="country" aria-label="Select Country">
                 <option selected>Select Country</option>
                 <option value="indonesia">Indonesia</option>
                 <option value="malaysia">Malaysia</option>
@@ -50,8 +52,9 @@
     <div class="l-navbar" id="nav-bar">
         <nav class="nav">
             <div class="nav_list">
-                <a href="/" class="nav_link active"> <i class='bx bx-home'></i> <span class="nav_name">Home</span> </a>
-                <a href="/history" class="nav_link"> <i class='bx bx-history'></i> <span class="nav_name">History and Goals</span> </a>
+                <a href="/" id="home" class="nav_link active"> <i class='bx bx-home'></i> <span class="nav_name">Home</span> </a>
+                <a href="/country/index/indonesia" id="country" class="nav_link"> <i class='bx bx-flag'></i> <span class="nav_name">Country</span> </a>
+                <a href="/history" id="history" class="nav_link"> <i class='bx bx-history'></i> <span class="nav_name">History and Goals</span> </a>
                 <a href="/activities" class="nav_link"> <i class='bx bx-hive'></i> <span class="nav_name">Activities</span> </a>
                 <a href="/data-exchange" class="nav_link"> <i class='bx bx-data'></i> <span class="nav_name">Data Exchange</span> </a>
                 <a href="/update-data" class="nav_link"> <i class='bx bx-refresh'></i> <span class="nav_name">Update Data</span> </a>
