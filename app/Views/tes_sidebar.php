@@ -126,7 +126,6 @@
             <span class="text">Drop Down Sidebar</span>
         </div>
     </section>
-
     <script src="js/sidebar2.js"></script>
 
 </body>

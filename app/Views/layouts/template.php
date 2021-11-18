@@ -21,63 +21,133 @@
     <title><?= $title; ?></title>
 </head>
 
-<body id="body-pd">
-    <header class="header" id="header">
-        <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
-        <div class="select">
-            <select class="form-select" id="country" aria-label="Select Country">
-                <option selected>Select Country</option>
-                <option value="indonesia">Indonesia</option>
-                <option value="malaysia">Malaysia</option>
-                <option value="philippines">Phippines</option>
-                <option value="thailand">Thailand</option>
-                <option value="singapore">Singapore</option>
-                <option value="bruneids">Brunei DS</option>
-                <option value="vietnam">Vietnam</option>
-                <option value="laos">Laos</option>
-                <option value="myanmar">Myanmar</option>
-            </select>
+<body>
+    <div class="sidebar close">
+        <div class="logo-details">
+            <img src="<?php echo base_url(); ?>/img/asean-logo.png" width="45%" alt="">
+            <span class="logo_name">AEIC</span>
         </div>
-        <div class="logo-text text-end fw-bold">
-            <a href="<?php echo base_url(); ?>">
-                ASEAN EARTHQUAKE <br> INFORMATION CENTER
-            </a>
+        <ul class="nav-links">
+            <li>
+                <a href="#">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="link_name">Dashboard</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Category</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="iocn-link">
+                    <a href="#">
+                        <i class='bx bx-collection'></i>
+                        <span class="link_name">Category</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">Category</a></li>
+                    <li><a href="#">HTML & CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">PHP & MySQL</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="iocn-link">
+                    <a href="#">
+                        <i class='bx bx-book-alt'></i>
+                        <span class="link_name">Posts</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">Posts</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Login Form</a></li>
+                    <li><a href="#">Card Design</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-pie-chart-alt-2'></i>
+                    <span class="link_name">Analytics</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Analytics</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-line-chart'></i>
+                    <span class="link_name">Chart</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Chart</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="iocn-link">
+                    <a href="#">
+                        <i class='bx bx-plug'></i>
+                        <span class="link_name">Plugins</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">Plugins</a></li>
+                    <li><a href="#">UI Face</a></li>
+                    <li><a href="#">Pigments</a></li>
+                    <li><a href="#">Box Icons</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-compass'></i>
+                    <span class="link_name">Explore</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Explore</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-history'></i>
+                    <span class="link_name">History</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">History</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-cog'></i>
+                    <span class="link_name">Setting</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Setting</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+    <section class="home-section">
+        <div class="home-content">
+            <i class='bx bx-menu'></i>
+            <img src="<?php echo base_url(); ?>/img/asean-logo.png" alt="ASEAN Logo" width=4%">
+            <span class="text">ASEAN EARTHQUAKE INFORMATION CENTER</span>
         </div>
-        <div class="header_logo">
-            <a href="<?= base_url(); ?>">
-                <img src=<?php echo base_url($aseanLogo); ?> alt="ASEAN logo">
-            </a>
+        <!--Container Main start-->
+        <div class="container">
+            <?= $this->renderSection('content'); ?>
         </div>
-    </header>
-    <div class="l-navbar" id="nav-bar">
-        <nav class="nav">
-            <div class="nav_list">
-                <a href="/" id="home" class="nav_link active"> <i class='bx bx-home'></i> <span class="nav_name">Home</span> </a>
-                <a href="/country/index/indonesia" id="country" class="nav_link"> <i class='bx bx-flag'></i> <span class="nav_name">Country</span> </a>
-                <a href="/history" id="history" class="nav_link"> <i class='bx bx-history'></i> <span class="nav_name">History and Goals</span> </a>
-                <a href="/activities" class="nav_link"> <i class='bx bx-hive'></i> <span class="nav_name">Activities</span> </a>
-                <a href="/data-exchange" class="nav_link"> <i class='bx bx-data'></i> <span class="nav_name">Data Exchange</span> </a>
-                <a href="/update-data" class="nav_link"> <i class='bx bx-refresh'></i> <span class="nav_name">Update Data</span> </a>
-                <a href="/recent-earthquakes" class="nav_link"> <i class='bx bx-news'></i> <span class="nav_name">Recent Earthquakes</span> </a>
-                <a href="/facilities" class="nav_link"> <i class='bx bx-buildings'></i> <span class="nav_name">Facilities</span> </a>
-                <a href="/financial-support" class="nav_link"> <i class='bx bx-donate-heart'></i> <span class="nav_name">Financial Support</span> </a>
-                <a href="/aeic-links" class="nav_link"> <i class='bx bx-link'></i> <span class="nav_name">AEIC Links</span> </a>
-            </div>
-    </div>
-    </div>
-    </div>
-    </nav>
-    </div>
-    <!--Container Main start-->
-    <div class="height-100 bg-light">
-        <?= $this->renderSection('content'); ?>
-    </div>
-    <!--Container Main end-->
+        <!--Container Main end-->
+    </section>
+
 
 
 
     <!-- JavaScript -->
-    <script src=<?php echo base_url($js); ?>></script>
+    <!-- <script src=<?php echo base_url($js); ?>></script> -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
