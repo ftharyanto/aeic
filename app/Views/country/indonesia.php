@@ -17,8 +17,10 @@
     Millions of these earthquakes have occurred over thousands and millions of years on the geological time scale. Evidence of these past earthquakes is recorded in natural geological phenomena (paleo-seismology). Today earthquake can be recorded using seismometer networks, which calculate an earthquake location and focal depth (hypocenter) and measure its magnitude. Approximately 4000 earthquakes happened in Indonesia per year, whereas earthquake of magnitude greater than 5.5, or earthquake that can be physically felt on land, average around 70 – 100 per years, and destructive earthquakes around one to two times a year. Between 1991 – 2011, 186 significant earthquakes were recorded in Indonesia seismic network.</p>
 
 <h4>Indonesian Seismic Network</h4>
-Post the Aceh earthquake December 26, 2004, the government of Indonesia, decided to develop a network of digital seismic for the monitoring of regional seismic station for monitoring of regional seismicity and to collect data for tsunami early warning system. In order to monitor seismic activity in Indonesia and surrounding areas, Indonesia has developed an earthquake monitoring network consisting of Broadband Seismometers and Accelerometers spread in the region of Indonesia. By using these new seismic networks and new seismic data analysis, Seiscomp3, Indonesia has been able to provide earthquake information to the interface institution and public less than 5 minutes after the earthquake occurred.
-<img src="<?php echo base_url(); ?>/img/ina_seismic.gif" alt="Indonesian Seismic Network">
+<p>Post the Aceh earthquake December 26, 2004, the government of Indonesia, decided to develop a network of digital seismic for the monitoring of regional seismic station for monitoring of regional seismicity and to collect data for tsunami early warning system. In order to monitor seismic activity in Indonesia and surrounding areas, Indonesia has developed an earthquake monitoring network consisting of Broadband Seismometers and Accelerometers spread in the region of Indonesia. By using these new seismic networks and new seismic data analysis, Seiscomp3, Indonesia has been able to provide earthquake information to the interface institution and public less than 5 minutes after the earthquake occurred.</p>
+<div class="text-center">
+    <img src="<?php echo base_url(); ?>/img/ina_seismic.gif" alt="Indonesian Seismic Network">
+</div>
 <p>Indonesia is currently operating and maintaining 162 broadband seismometers and 237 accelerometers. Some of the accelerometer placed collocated with broadband seismometers location. Using telemetry equipment and VSat lines, these digital recordings are transmitted on real-time mode to the central processing system at BMKG. The data are processed and issued as earthquake bulletin or tsunami warning by the central office.</p>
 <h4>Institution that monitor the tectonic earthquakes in Indonesia</h4>
 <p>Monitoring of tectonic earthquakes and tsunami activities in Indonesia are doing by Agency for Meteorology, Climatology, and Geophysics (BMKG) which is conducted in deputy of geophysics.
@@ -53,7 +55,7 @@ Division of Earthquake and Tsunami Early Information consists of:
 
 
 
-<p>Earthquake Information Sub-Division has tasks on data monitoring, processing, and analysing as well as dissemination of earthquake information.
+<p style="margin-bottom: 1rem;">Earthquake Information Sub-Division has tasks on data monitoring, processing, and analysing as well as dissemination of earthquake information.
 
     Tsunami Early Warning Sub-Division has tasks on data monitoring, processing, and analysing as well as dissemination of tsunami early warning.</p>
 

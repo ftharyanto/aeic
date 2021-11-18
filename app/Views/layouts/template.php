@@ -42,7 +42,7 @@
 <body>
     <div class="sidebar close">
         <div class="logo-details">
-            <img src="<?php echo base_url(); ?>/img/asean-logo.png" width="20%" alt="">
+            <!-- <img src="<?php echo base_url(); ?>/img/asean-logo.png" width="20%" alt=""> -->
             <span class="logo_name">AEIC</span>
         </div>
         <ul class="nav-links">
@@ -145,7 +145,7 @@
     <section class="home-section">
         <div class="home-content">
             <i class='bx bx-menu'></i>
-            <img src="<?php echo base_url(); ?>/img/asean-logo.png" alt="ASEAN Logo" width="2%">
+            <!-- <img src="<?php echo base_url(); ?>/img/asean-logo.png" alt="ASEAN Logo" width="2%"> -->
             <span class="text">ASEAN EARTHQUAKE INFORMATION CENTER</span>
         </div>
         <!--Container Main start-->
