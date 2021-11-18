@@ -95,8 +95,8 @@
             </colgroup>
             <tbody>
                 <tr class="row100 body">
-                    <a href="http://earthquake.usgs.gov/recenteqsww/Quakes/quakes_all.html">United States Geological Survey (USGS)</a></td>
-                    <td class="cell100 column1">You can click on the location and it will give you a map of where these earthquakes have occured around the globe. Shows the earth depths and gives you the magnitude. Very good visual information</td>
+                    <td class="cell100 column1"><a href="http://earthquake.usgs.gov/recenteqsww/Quakes/quakes_all.html">United States Geological Survey (USGS)</a></td>
+                    <td class="cell100 column2">You can click on the location and it will give you a map of where these earthquakes have occured around the globe. Shows the earth depths and gives you the magnitude. Very good visual information</td>
                 </tr>
                 <tr class="row100 body">
                     <td class="cell100 column1"><a href="http://www.rdss.info/index_ie.html">Prototype International Data Center (PIDC)</a></td>
