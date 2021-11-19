@@ -205,13 +205,14 @@
 .sidebar.close .profile-details .job {
   display: none;
 }
+
 .sidebar .profile-details .job {
   font-size: 12px;
 }
 .home-section {
   position: relative;
   background: #e4e9f7;
-  height: 100vh;
+  height: 100vh - auto;
   left: 260px;
   width: calc(100% - 260px);
   transition: all 0.5s ease;

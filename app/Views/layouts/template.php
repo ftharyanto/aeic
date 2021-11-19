@@ -149,7 +149,7 @@
             <span class="text">ASEAN EARTHQUAKE INFORMATION CENTER</span>
         </div>
         <!--Container Main start-->
-        <div class="container mt-5">
+        <div class="container mt-5" id="box-content">
             <?= $this->renderSection('content'); ?>
         </div>
         <!--Container Main end-->
