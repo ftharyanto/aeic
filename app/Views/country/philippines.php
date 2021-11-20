@@ -42,6 +42,6 @@
 <p>Modernization of seismic instrument system is also desired with the uses of telemetred and digital instrument. A JICA project to improve the earthquakes and volcano monitoring capability of PHIVOLCS is being worked out between the Philippine and the Japanese government. Thirty three 33 sites for earthquakes and volcano monitoring station were identified for improvement by telemetered to on central recording station and three sub center. These station will de equipped the minimum required number of monitoring equipment and facilities to ensure continuous and reliable generation and collection of seismic data.
     considering the number and distribution of active earthquakes generator in the Philippine, at least sixty strategically, distributed seismic station are needed to enable PHIVOLCS to effectively and accurately document the seism city of the country. In dong so seismic hazard and risk assessment could be better addressed. Proper land use planning with due consideration of the identified seismic hazard could be minimize if not totally eliminate disasters arising from earthquakes.</p>
 
-<p>See the Web site <a href="http://www.phivolcs.dost.gov.ph/">Seismology on PPhilippines</a> </p>
+<p class="mt-5">See the Web site <a href="http://www.phivolcs.dost.gov.ph/">Seismology on PPhilippines</a> </p>
 <!--Container Main end-->
 <?= $this->endSection(); ?>

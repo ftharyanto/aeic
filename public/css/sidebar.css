@@ -11,7 +11,7 @@
   top: 0;
   left: 0;
   height: 100%;
-  width: 260px;
+  width: 290px;
   background: #11101d;
   z-index: 100;
   transition: all 0.5s ease;
@@ -20,6 +20,7 @@
   width: 78px;
 }
 .sidebar .logo-details {
+  margin: 2rem 2rem 0 2rem;
   height: 60px;
   width: 100%;
   display: flex;
@@ -34,6 +35,7 @@
   line-height: 50px;
 }
 .sidebar .logo-details .logo_name {
+  margin-left: 1rem;
   font-size: 22px;
   color: #fff;
   font-weight: 600;
@@ -163,7 +165,7 @@
 .sidebar .profile-details {
   position: fixed;
   bottom: 0;
-  width: 260px;
+  width: 290px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -212,9 +214,9 @@
 .home-section {
   position: relative;
   background: #e4e9f7;
-  height: 100vh - auto;
-  left: 260px;
-  width: calc(100% - 260px);
+  min-height: 100vh;
+  left: 290px;
+  width: calc(100% - 290px);
   transition: all 0.5s ease;
 }
 .sidebar.close ~ .home-section {

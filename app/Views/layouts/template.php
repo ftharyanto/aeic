@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <!-- Favicon -->
+    <link rel="icon" href="<?php echo base_url(); ?>/favicon.ico" type="image/gif">
+
     <!-- hidden base url for js -->
     <input type="hidden" id="base_url" value="<?php echo base_url(); ?>">
     <!-- Required meta tags -->
@@ -42,17 +45,17 @@
 <body>
     <div class="sidebar close">
         <div class="logo-details">
-            <!-- <img src="<?php echo base_url(); ?>/img/asean-logo.png" width="20%" alt=""> -->
+            <img src="<?php echo base_url(); ?>/img/asean-logo.png" width="20%" alt="">
             <span class="logo_name">AEIC</span>
         </div>
         <ul class="nav-links">
             <li>
-                <a href="/">
+                <a href="<?php echo base_url(); ?>">
                     <i class='bx bx-home'></i>
                     <span class="link_name">Home</span>
                 </a>
                 <ul class="sub-menu blank">
-                    <li><a class="link_name" href="/">Home</a></li>
+                    <li><a class="link_name" href="<?php echo base_url(); ?>">Home</a></li>
                 </ul>
             </li>
             <li>
@@ -77,18 +80,18 @@
                 </ul>
             </li>
             <li>
-                <a href="#">
+                <a href="<?php echo base_url(); ?>/historyandgoals">
                     <i class='bx bx-history'></i>
                     <span class="link_name">History and Goals</span>
                 </a>
                 <ul class="sub-menu">
-                    <li><a class="link_name" href="#">History and Goals</a></li>
+                    <li><a class="link_name" href="<?php echo base_url(); ?>/historyandgoals">History and Goals</a></li>
                 </ul>
             </li>
             <li>
                 <a href="<?php echo base_url(); ?>/activities">
                     <i class='bx bx-hive'></i>
-                    <span class="link_name"><?php echo base_url(); ?>/</span>
+                    <span class="link_name">Activities</span>
                 </a>
                 <ul class="sub-menu">
                     <li><a class="link_name" href="<?php echo base_url(); ?>/activities">Activities</a></li>
@@ -113,21 +116,21 @@
                 </ul>
             </li>
             <li>
-                <a href="#">
+                <a href="<?php echo base_url(); ?>/facilities">
                     <i class='bx bx-buildings'></i>
                     <span class="link_name">Facilities</span>
                 </a>
                 <ul class="sub-menu blank">
-                    <li><a class="link_name" href="#">Facilities</a></li>
+                    <li><a class="link_name" href="<?php echo base_url(); ?>/facilities">Facilities</a></li>
                 </ul>
             </li>
             <li>
-                <a href="#">
+                <a href="<?php echo base_url(); ?>/financial_support">
                     <i class='bx bx-donate-heart'></i>
                     <span class="link_name">Financial Support</span>
                 </a>
                 <ul class="sub-menu blank">
-                    <li><a class="link_name" href="#">Financial Support</a></li>
+                    <li><a class="link_name" href="<?php echo base_url(); ?>/financial_support">Financial Support</a></li>
                 </ul>
             </li>
             <li>
@@ -149,7 +152,7 @@
             <span class="text">ASEAN EARTHQUAKE INFORMATION CENTER</span>
         </div>
         <!--Container Main start-->
-        <div class="container mt-5" id="box-content">
+        <div class="container mt-5 pb-5">
             <?= $this->renderSection('content'); ?>
         </div>
         <!--Container Main end-->

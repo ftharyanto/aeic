@@ -34,6 +34,9 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/activities', 'Home::activities');
 $routes->get('/aeic_links', 'Home::aeic_links');
+$routes->get('/facilities', 'Home::facilities');
+$routes->get('/financial_support', 'Home::financial_support');
+$routes->get('/historyandgoals', 'Home::historyandgoals');
 $routes->get('/tes_sidebar', 'Country::sidebar');
 
 

@@ -34,7 +34,7 @@
 <p>Although Singapore is outside the major earthquakes zones and has no history of near-field earthquakes, with the establishment of its earthquakes monitoring network, mms hopes to contribute to the regional earthquakes monitoring programs in ASEAN.
     In view of the closely knitted socio-economic fabric amongst the ASEAN countries and the reality of devastating seismic risk in the region, it is beneficial for ASEAN members to develop collaborative seismic programs and activities. The current economic crisis serves as an additional impetus for the ASEAN members to exploit the synergies an the optimal utilization of scarce seismic know-how and resources in the region. Regional collaborative efforts in earthquakes monitoring will no doubt enhance the region's capability and ability to response in a timely manner to earthquakes disasters. In this regard, the ASNET RESED project is very relevant effort that will certainly contribute to the well being of the ASEAN region.</p>
 
-<p>See the Web site <a href="http://app.nea.gov.sg/cms/htdocs/category_sub.asp?cid=53">Seismology on Singapure</a>
+<p class="mt-5">See the Web site <a href="http://app.nea.gov.sg/cms/htdocs/category_sub.asp?cid=53">Seismology on Singapure</a>
 </p>
 <!--Container Main end-->
 <?= $this->endSection(); ?>
