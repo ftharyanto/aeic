@@ -149,7 +149,7 @@
         <div class="home-content">
             <i class='bx bx-menu' style="color: white;"></i>
             <!-- <img src="<?php echo base_url(); ?>/img/asean-logo.png" alt="ASEAN Logo" width="2%"> -->
-            <span class="text text-logo" style="color: white;">ASEAN EARTHQUAKE INFORMATION CENTER</span>
+            <span class="text" style="color: white;">ASEAN EARTHQUAKE INFORMATION CENTER</span>
         </div>
         <!--Container Main start-->
         <div class="container mt-5 pb-5">
