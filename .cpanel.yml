@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ftharyan/public_html/
+    - export DEPLOYPATH=/home/ftharyan/public_html/aeic/
     - /bin/cp -R * $DEPLOYPATH
