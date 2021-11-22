@@ -153,7 +153,9 @@
         </div>
         <!--Container Main start-->
         <div class="container mt-5 pb-5">
-            <?= $this->renderSection('content'); ?>
+            <div class="container box-content">
+                <?= $this->renderSection('content'); ?>
+            </div>
         </div>
         <!--Container Main end-->
     </section>

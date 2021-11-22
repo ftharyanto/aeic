@@ -213,7 +213,7 @@
 }
 .home-section {
   position: relative;
-  background: #e4e9f7;
+  background: #ffffff;
   min-height: 100vh;
   left: 290px;
   width: calc(100% - 290px);
@@ -246,4 +246,12 @@
   .sidebar.close .nav-links li .sub-menu {
     display: none;
   }
+}
+
+.container .box-content {
+  width: auto;
+  height: auto;
+  padding: 4rem 4rem;
+  border-radius: 1%;
+  box-shadow: 3px 3px 6px 2px #777;
 }
