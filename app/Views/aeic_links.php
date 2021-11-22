@@ -52,7 +52,7 @@
                 </tr>
 
                 <tr class="row100 body">
-                    <td class="cell100 column1">a href="http://www.phivolcs.dost.gov.ph/"</td>
+                    <td class="cell100 column1"><a href="http://www.phivolcs.dost.gov.ph/">Philippines</td>
                     <td class="cell100 column2">Seismology web site in Philippines </td>
                 </tr>
 
@@ -227,48 +227,48 @@
                     <td class="cell100 column2">where was it</td>
                 </tr>
                 <tr class="row100 body">
-                    <td class="cell100 column"><a href="http://www.teleport.com/~tacing/">Earthquake</a></td>
-                    <td class="cell100 column">Reasearch breakthrough</td>
+                    <td class="cell100 column1"><a href="http://www.teleport.com/~tacing/">Earthquake</a></td>
+                    <td class="cell100 column2">Reasearch breakthrough</td>
                 </tr>
                 <tr class="row100 body">
-                    <td class="cell100 column"><a href="http://www.ema.gov.au/ema-eq.htm">Emergency Management Australia</a></td>
-                    <td class="cell100 column">From EMA</td>
+                    <td class="cell100 column1"><a href="http://www.ema.gov.au/ema-eq.htm">Emergency Management Australia</a></td>
+                    <td class="cell100 column2">From EMA</td>
                 </tr>
                 <tr class="row100 body">
-                    <td class="cell100 column"><a href="http://www.insure.com/home/quake.html">Insurance News Network</a></td>
-                    <td class="cell100 column">Gives you information on earthquake insurance.</td>
+                    <td class="cell100 column1"><a href="http://www.insure.com/home/quake.html">Insurance News Network</a></td>
+                    <td class="cell100 column2">Gives you information on earthquake insurance.</td>
                 </tr>
                 <tr class="row100 body">
-                    <td class="cell100 column"><a href="http://www.safe-t-proof.com/">SAFE-T-PROOF</a></td>
-                    <td class="cell100 column">Earthquake Preparedness Specialists. You can check out their survival kits and the mobile earthquake simulator</td>
+                    <td class="cell100 column1"><a href="http://www.safe-t-proof.com/">SAFE-T-PROOF</a></td>
+                    <td class="cell100 column2">Earthquake Preparedness Specialists. You can check out their survival kits and the mobile earthquake simulator</td>
                 </tr>
                 <tr class="row100 body">
-                    <td class="cell100 column"><a href="http://shake2.earthsciences.uq.edu.au/index.html">QUAKES</a></td>
-                    <td class="cell100 column">from our Australian friends</td>
+                    <td class="cell100 column1"><a href="http://shake2.earthsciences.uq.edu.au/index.html">QUAKES</a></td>
+                    <td class="cell100 column2">from our Australian friends</td>
                 </tr>
                 <tr class="row100 body">
-                    <td class="cell100 column"><a href="http://www.dis-inc.com/quakecov.htm">Damage Statistics</a></td>
-                    <td class="cell100 column">for recent earthquakes through out the world</td>
+                    <td class="cell100 column1"><a href="http://www.dis-inc.com/quakecov.htm">Damage Statistics</a></td>
+                    <td class="cell100 column2">for recent earthquakes through out the world</td>
                 </tr>
                 <tr class="row100 body">
-                    <td class="cell100 column"><a href="http://www.freddiemac.com/function/fm-news/smm/0296/eqtable2.htm">30 Year Probabilities</a></td>
-                    <td class="cell100 column">of Major Earthquakes by Region</td>
+                    <td class="cell100 column1"><a href="http://www.freddiemac.com/function/fm-news/smm/0296/eqtable2.htm">30 Year Probabilities</a></td>
+                    <td class="cell100 column2">of Major Earthquakes by Region</td>
                 </tr>
                 <tr class="row100 body">
-                    <td class="cell100 column"><a href="http://www.disasterrelief.org/Library/WorldDis/wde1_txt.html">Deadliest Earthquakes on Record</a></td>
-                    <td class="cell100 column">Locations and Magnitudes</td>
+                    <td class="cell100 column1"><a href="http://www.disasterrelief.org/Library/WorldDis/wde1_txt.html">Deadliest Earthquakes on Record</a></td>
+                    <td class="cell100 column2">Locations and Magnitudes</td>
                 </tr>
                 <tr class="row100 body">
-                    <td class="cell100 column"><a href="http://www.scholastic.com/bookclubs/arrow/arrow3.htm">Earthquakes</a></td>
-                    <td class="cell100 column">more study for students</td>
+                    <td class="cell100 column1"><a href="http://www.scholastic.com/bookclubs/arrow/arrow3.htm">Earthquakes</a></td>
+                    <td class="cell100 column2">more study for students</td>
                 </tr>
                 <tr class="row100 body">
-                    <td class="cell100 column"><a href="http://www.takenaka.co.jp/takenaka_e/index.html">Earthquake Engineering</a></td>
-                    <td class="cell100 column">Cities harbour a great weakness when it comes to earthquakes......................</td>
+                    <td class="cell100 column1"><a href="http://www.takenaka.co.jp/takenaka_e/index.html">Earthquake Engineering</a></td>
+                    <td class="cell100 column2">Cities harbour a great weakness when it comes to earthquakes......................</td>
                 </tr>
                 <tr class="row100 body">
-                    <td class="cell100 column"><a href="http://www.geophys.washington.edu">Planning for Earthquakes</a></td>
-                    <td class="cell100 column">measures for natural hazard prevention</td>
+                    <td class="cell100 column1"><a href="http://www.geophys.washington.edu">Planning for Earthquakes</a></td>
+                    <td class="cell100 column2">measures for natural hazard prevention</td>
                 </tr>
             </tbody>
         </table>
